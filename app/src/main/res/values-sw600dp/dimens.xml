@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="toolBar_textview_size">20sp</dimen>
+    <dimen name="padding_from_edge">16dp</dimen>
+    <dimen name="rectangle_box_margin">82dp</dimen>
+    <dimen name="add_photo_circle_width">60dp</dimen>
+    <dimen name="add_photo_rectangle_width">120dp</dimen>
+    <dimen name="add_photo_rectangle_hight">120dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_view_search_hight">50dp</dimen>
+
+    <dimen name="padding_text_view">8dp</dimen>
+    <dimen name="padding_nav_header">120dp</dimen>
+    <dimen name="details_margin">64dp</dimen>
+    <dimen name="text_view_search_width">380dp</dimen>
+    <dimen name="filter_bar_width">430dp</dimen>
+</resources>

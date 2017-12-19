@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TrainingCenter</string>
+
+    <string name="new_user">مستخدم جديد</string>
+    <string name="add_pic">إضافة صورة شخصية</string>
+    <string name="register">تسجيل</string>
+    <string name="name">الاسم الشخصي</string>
+    <string name="name_user">اسم المستخدم</string>
+    <string name="phone_num">رقم الجوال</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="location">الموقع الجغرافي</string>
+    <string name="about">نبذة عن المشترك</string>
+    <string name="login">دخول</string>
+    <string name="request">طلباتي</string>
+    <string name="notifications">التنبيهات</string>
+    <string name="email_not_valid">عنوان البريد الالكتروني غير صحيح</string>
+    <string name="password_not_same">كلمة المرور غير متطابقة</string>
+    <string name="password_min">كلمة المرور قصيرة</string>
+    <string name="phone_not_valid">رقم الجوال غير صحيح</string>
+    <string name="complete_field">الحقل فارغ </string>
+    <string name="logout">خروج</string>
+    <string name="manage_course">إدارة الدورات التدريبية</string>
+    <string name="manage_ads">إدارة الاعلانات</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="register_not_complete">لم يتم التسجيل</string>
+    <string name="wrong">خطأ</string>
+    <string name="close">إغلاق</string>
+    <string name="complete">تمت العملية</string>
+    <string name="register_complete">تمت عملية التسجيل بنجاح</string>
+    <string name="account_exist">الحساب موجود مسبقا</string>
+    <string name="validate_phone">تحقق من كلمة المرور أو رقم الحساب</string>
+    <string name="not_valid">الحساب غير متاح</string>
+    <string name="logout_assure">هل تريد حقا تسجيل الخروج</string>
+    <string name="cancel">لا</string>
+    <string name="yes_logout">نعم</string>
+    <string name="course_title">عنوان الدورة</string>
+    <string name="course_hours">عدد ساعات الدورة</string>
+    <string name="course_trainer">اسم المدرب</string>
+    <string name="course_date">مواعيد الدورة</string>
+    <string name="saturday">السبت</string>
+    <string name="sunday">الأحد</string>
+    <string name="monday">الاثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wedensday">الأربعاء</string>
+    <string name="thersday">الخميس</string>
+    <string name="course_price">سعر الدورة</string>
+    <string name="course_place">مكان الدورة</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="add_new_course">تم إضافة الدورة بنجاح !</string>
+    <string name="not_added_course">للأسف لم يتم إضافة الدورة !</string>
+    <string name="not_edit">لم يتم التعديل</string>
+    <string name="edit_course">تم التعديل بنجاح</string>
+    <string name="view">تفاصيل</string>
+
+
+</resources>

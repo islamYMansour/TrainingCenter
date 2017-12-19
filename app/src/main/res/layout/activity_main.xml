@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.islam.trainingcenter.app.Module.Activites.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:padding="8dp" />
+
+    <com.daimajia.slider.library.SliderLayout
+
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

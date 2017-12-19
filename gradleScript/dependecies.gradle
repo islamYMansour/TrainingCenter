@@ -1,0 +1,92 @@
+project.ext {
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+    targetSdkVersion = 22
+    minSdkVersion = 17
+
+    SUPPORTS_LIBRARY_VERSION = '25.1.0'
+    MULTIDEX_LIBRARY_VERSION = '1.0.1'
+    EVENTBUS_LIBRARY_VERSION = '3.0.0'
+    EVENTBUSAPT_LIBRARY_VERSION = '3.0.1'
+    ANDROIDANNOTATIONS_LIBRARY_VERSION = '4.0.0'
+    UIMGLOADER_LIBRARY_VERSION = '1.9.5'
+    jackson_LIBRARY_VERSION = '2.8.0'
+    service_LIBRARY_VERSION='11.2.2'
+
+    converterJackson_LIBRARY_VERSION= '1.9.0'
+    rxjavacore_LIBRARY_VERSION= '0.19.0'
+    appengine_LIBRARY_VERSION= '1.8.9'
+    okhttp_LIBRARY_VERSION='2.4.0'
+    urlconnection_LIBRARY_VERSION='2.4.0'
+    httpclient_LIBRARY_VERSION='4.0.1'
+    gson_LIBRARY_VERSION='2.2.4'
+
+    flexibledivider_LIBRARY_VERSION='1.2.5'
+    stetho_LIBRARY_VERSION='1.5.0'
+    constraint_LIBRARY_VERSION='1.0.0-alpha4'
+    materialsearchviewLIBRARY_VERSION='1.4.0'
+    playservices_LIBRARY_VERSION='11.2.2'
+    aerogear_LIBRARY_VERSION='4.0.1'
+    circleimageview_LIBRARY_VERSION='2.1.0'
+    ucrop_LIBRARY_VERSION='2.1.2'
+    loopj_LIBRARY_VERSION='1.4.9'
+    fresco_LIBRARY_VERSION='1.5.0'
+
+    //Support Libraries dependencies
+    libraryDependency = [
+
+            design             : "com.android.support:design:${SUPPORTS_LIBRARY_VERSION}",
+            recyclerView       : "com.android.support:recyclerview-v7:${SUPPORTS_LIBRARY_VERSION}",
+            cardView           : "com.android.support:cardview-v7:${SUPPORTS_LIBRARY_VERSION}",
+            appCompat7          : "com.android.support:appcompat-v7:${SUPPORTS_LIBRARY_VERSION}",
+            supportv4             : "com.android.support:support-v4:${SUPPORTS_LIBRARY_VERSION}",
+
+
+            supportAnnotation  : "com.android.support:support-annotations:${SUPPORTS_LIBRARY_VERSION}",
+            multiDex           : "com.android.support:multidex:${MULTIDEX_LIBRARY_VERSION}",
+            eventbusApt        : "org.greenrobot:eventbus-annotation-processor:${EVENTBUSAPT_LIBRARY_VERSION}",
+            eventbus           : "org.greenrobot:eventbus:${EVENTBUS_LIBRARY_VERSION}",
+            annotationApt      : "org.androidannotations:androidannotations:${ANDROIDANNOTATIONS_LIBRARY_VERSION}",
+            annotationApi      : "org.androidannotations:androidannotations-api:${ANDROIDANNOTATIONS_LIBRARY_VERSION}",
+            univeralImageLoader: "com.nostra13.universalimageloader:universal-image-loader:${UIMGLOADER_LIBRARY_VERSION}",
+
+
+            jacksoncore : "com.fasterxml.jackson.core:jackson-core:${jackson_LIBRARY_VERSION}",
+            jacksondatabind:"com.fasterxml.jackson.core:jackson-databind:${jackson_LIBRARY_VERSION}",
+            jacksonannotations:"com.fasterxml.jackson.core:jackson-annotations:${jackson_LIBRARY_VERSION}",
+
+            converterJackson:"com.squareup.retrofit:converter-jackson:${converterJackson_LIBRARY_VERSION}",
+
+            rxjavacore:"com.netflix.rxjava:rxjava-core:${rxjavacore_LIBRARY_VERSION}",
+            appengine:"com.google.appengine:appengine-api-1.0-sdk:${appengine_LIBRARY_VERSION}",
+            okhttp:"com.squareup.okhttp:okhttp:${okhttp_LIBRARY_VERSION}",
+
+            urlconnection:"com.squareup.okhttp:okhttp-urlconnection:${urlconnection_LIBRARY_VERSION}",
+
+            httpclient:"org.apache.httpcomponents:httpclient:${httpclient_LIBRARY_VERSION}",
+            gson:"com.google.code.gson:gson:${gson_LIBRARY_VERSION}",
+            flexibledivider:"com.yqritc:recyclerview-flexibledivider:${flexibledivider_LIBRARY_VERSION}",
+
+            stetho:"com.facebook.stetho:stetho-okhttp:${stetho_LIBRARY_VERSION}",
+
+            fresco: "com.facebook.fresco:fresco:${fresco_LIBRARY_VERSION}",
+            FCM:"com.google.firebase:firebase-messaging:${service_LIBRARY_VERSION}",
+
+
+            analytics:   "com.google.android.gms:play-services-analytics:${service_LIBRARY_VERSION}",
+            constraint:   "com.android.support.constraint:constraint-layout:${constraint_LIBRARY_VERSION}",
+            materialsearchview:   "com.miguelcatalan:materialsearchview:${materialsearchviewLIBRARY_VERSION}",
+            playservices_ad :   "com.google.android.gms:play-services-ads:${playservices_LIBRARY_VERSION}",
+            aerogear :   "org.jboss.aerogear:aerogear-android-push:${aerogear_LIBRARY_VERSION}",
+            circleimageview :   "de.hdodenhof:circleimageview:${circleimageview_LIBRARY_VERSION}",
+            cardview :   "com.android.support:cardview-v7:${SUPPORTS_LIBRARY_VERSION}",
+            ucrop :   "com.yalantis:ucrop:${ucrop_LIBRARY_VERSION}",
+            services_auth :   "com.google.android.gms:play-services-auth:${playservices_LIBRARY_VERSION}",
+            loopj :   "com.loopj.android:android-async-http:${loopj_LIBRARY_VERSION}",
+            autofittextview:   "me.grantland:autofittextview:0.2.1",
+            googleMap :   "com.google.android.gms:play-services-maps:${service_LIBRARY_VERSION}",
+            support_core_ui:"com.android.support:support-core-ui:${SUPPORTS_LIBRARY_VERSION}",
+            support_core_utils:"com.android.support:support-core-utils:${SUPPORTS_LIBRARY_VERSION}",
+
+    ]
+}

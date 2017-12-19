@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/logo"
+            android:background="@drawable/profil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            app:roundingBorderColor="@color/colorPrimary"
+            app:roundedCornerRadius="200dp"
+            app:roundingBorderWidth="2dp"
+            app:placeholderImage="@drawable/profil"/>
+
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/rectangle_box_margin"
+            android:layout_marginRight="@dimen/rectangle_box_margin"
+            android:background="@drawable/rectangle_round_corners"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical|right"
+            android:hint="@string/name_user"
+            android:padding="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/gray_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/rectangle_box_margin"
+            android:layout_marginRight="@dimen/rectangle_box_margin"
+            android:background="@drawable/rectangle_round_corners"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical|right"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/gray_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/text_size" />
+        <EditText
+
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/rectangle_box_margin"
+            android:layout_marginRight="@dimen/rectangle_box_margin"
+            android:background="@drawable/rectangle_round_corners"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical|right"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/gray_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/text_size" />
+        <EditText
+
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_password"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/rectangle_box_margin"
+        android:layout_marginRight="@dimen/rectangle_box_margin"
+        android:background="@drawable/rectangle_round_corners"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|right"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/gray_color"
+        android:textColorHint="@color/hint_color"
+        android:textSize="@dimen/text_size" />
+
+        <EditText
+
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/rectangle_box_margin"
+            android:layout_marginRight="@dimen/rectangle_box_margin"
+            android:background="@drawable/rectangle_round_corners"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical|right"
+            android:hint="@string/phone_num"
+            android:inputType="number"
+            android:padding="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/gray_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/text_size" />
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/user_name"
+            android:layout_alignStart="@+id/user_name"
+            android:layout_below="@id/phone"
+            android:layout_gravity="left"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rectangle_round_primary"
+            android:drawableLeft="@drawable/back"
+            android:drawablePadding="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
